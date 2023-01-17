@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-dg-2",
+  "version": "1.0.0",
+  "description": "tailwind responsive app with dark/light mode",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o .build/css/style.css --watch", "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalepadot/tailwind-dg-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalepadot/tailwind-dg-2/issues"
+  },
+  "homepage": "https://github.com/kalepadot/tailwind-dg-2#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  }
+}
