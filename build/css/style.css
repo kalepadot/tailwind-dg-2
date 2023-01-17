@@ -706,6 +706,10 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -732,6 +736,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .text-white {
@@ -842,6 +850,16 @@ video {
 .after\:top-0::after {
   content: var(--tw-content);
   top: 0px;
+}
+
+.after\:-bottom-20::after {
+  content: var(--tw-content);
+  bottom: -5rem;
+}
+
+.after\:right-0::after {
+  content: var(--tw-content);
+  right: 0px;
 }
 
 .after\:translate-x-2::after {
@@ -976,5 +994,10 @@ video {
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
