@@ -1036,6 +1036,10 @@ video {
   .md\:flex {
     display: flex;
   }
+
+  .md\:hidden {
+    display: none;
+  }
 }
 
 @media (min-aspect-ratio: 3/2) {
