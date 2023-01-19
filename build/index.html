@@ -15,8 +15,12 @@
                 <a href="#hero">🚀 Acme Rockets</a>
             </h1>
             <div>
-                <button id="hamburger-button" class="text-3xl cursor-pointer md:hidden">
+                <button id="hamburger-button" class="relative w-8 h-8 text-3xl cursor-pointer md:hidden">
                     <!-- &#9776; -->
+                    <div class="absolute w-8 h-1 bg-white rounded top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3 before:transition-all before:duration-500 after:transition-all after:duration-500
+                    after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:-translate-x-4 after:translate-y-3">
+                        
+                    </div>
                 </button>
                 <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
                     <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
@@ -26,7 +30,7 @@
             </div>
         </section>
 
-        <section id="mobile-menu" class="absolute top-0 flex-col content-center hidden w-full text-5xl origin-top bg-black justify-content animate-open-menu">
+        <section id="mobile-menu" class="absolute flex-col content-center hidden w-full text-5xl origin-top bg-black top-68 justify-content animate-open-menu">
             <!-- <button class="self-end px-6 text-8xl">
                 &times;
             </button> -->
